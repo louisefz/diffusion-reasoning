@@ -1,0 +1,44 @@
+# Generated datasets and model artifacts
+data/
+runs/
+results/
+cache/
+wandb/
+checkpoints/
+
+# Model/data binaries
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npz
+*.npy
+*.arrow
+
+# Scheduler and local logs
+*.out
+*.err
+slurm-*
+logs/
+
+# Python/tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+
+# Credentials and local environment
+.env
+.env.*
+.netrc
+*.pem
+*.key
+.step-*/
+.ssh*/
+
+# Editor/OS files
+.DS_Store
+.vscode/
+.idea/

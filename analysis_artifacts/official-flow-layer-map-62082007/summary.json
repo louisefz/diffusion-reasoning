@@ -1,0 +1,36 @@
+{
+  "checkpoint": "runs/official-composition-d4-1m-61996829/checkpoint_100000",
+  "checkpoint_step": 100000,
+  "trajectory": "runs/official-flow-trajectory-62060730/trajectory_tensors.pt",
+  "probes": "runs/official-layer-probe-full-62073605/ridge_probes.joblib",
+  "samples": 120,
+  "samples_per_group": {
+    "compose/d1": 30,
+    "compose/d2": 30,
+    "compose/d4": 30,
+    "lookup/d4": 30
+  },
+  "metric": "accuracy of fixed layer-wise Ridge probes trained at t=0",
+  "diagnostic_forward": "conditional model at each saved z_t; self-conditioning reset to condition-only",
+  "t_steps": [
+    0.0,
+    0.07959447056055069,
+    0.09101105481386185,
+    0.11055988073348999,
+    0.14188699424266815,
+    0.15071162581443787,
+    0.1593548208475113,
+    0.18185541033744812,
+    0.1939186453819275,
+    0.20645390450954437,
+    0.2100343257188797,
+    0.22847749292850494,
+    0.2298002541065216,
+    0.23875050246715546,
+    0.3183319866657257,
+    0.34030041098594666,
+    1.0
+  ],
+  "png": "runs/official-flow-layer-map-62082007/flow_time_x_transformer_depth.png",
+  "pdf": "runs/official-flow-layer-map-62082007/flow_time_x_transformer_depth.pdf"
+}

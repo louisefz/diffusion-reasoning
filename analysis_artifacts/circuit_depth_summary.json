@@ -1,0 +1,42 @@
+[
+  {
+    "depth": 1,
+    "block": 10,
+    "heads": [
+      1,
+      2,
+      3
+    ],
+    "immediate_response": 0.7904251905996352,
+    "final_response": 0.006526853879158807,
+    "semantic_retention": 0.008257396091092923,
+    "response_gain": 0.5577540383022278,
+    "donor_answer_rate": 0.0
+  },
+  {
+    "depth": 2,
+    "block": 10,
+    "heads": [
+      1,
+      2,
+      3
+    ],
+    "immediate_response": 0.8954401743412018,
+    "final_response": 0.05493499725991569,
+    "semantic_retention": 0.06134971250349893,
+    "response_gain": 0.8760974826849997,
+    "donor_answer_rate": 0.0
+  },
+  {
+    "depth": 4,
+    "block": 11,
+    "heads": [
+      3
+    ],
+    "immediate_response": 0.8015433609485626,
+    "final_response": 0.22506725034528016,
+    "semantic_retention": 0.2807923579816456,
+    "response_gain": 2.0025185591867194,
+    "donor_answer_rate": 0.225
+  }
+]
